@@ -1,12 +1,45 @@
-# React + Vite
+# 📚 RuliLearning 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RuliLearning adalah sebuah aplikasi **Learning Management System (LMS)** berbasis web yang dibangun menggunakan framework **React**.  
+Aplikasi ini dirancang untuk memudahkan pengguna dalam mengakses dan mempelajari berbagai materi pembelajaran.
 
-Currently, two official plugins are available:
+## ✨ Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Untuk Pengguna
+- Melihat daftar materi yang tersedia.
+- Mengakses materi gratis tanpa batasan.
+- Mendapatkan pengalaman belajar yang interaktif melalui fitur dashboard dan tampilan yang responsif.
+  
+### Assets
+- Aset thumbnail dari pinterest.com
+- Aset AR dari mywebarr.com
 
-## Expanding the ESLint configuration
+### Untuk Admin tidak di tampilkan di demo web nya karena bisa merusak website
+- Mengelola daftar materi (**CRUD: Create, Read, Update, Delete**).
+- Menentukan kategori materi serta status materi
+- Melihat data pengguna dan aktivitas mereka.
+- Mengelola konten melalui dashboard agar lebih mudah dan efisien.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Komponen             | Teknologi                                   |
+|----------------------|---------------------------------------------|
+| **Framework**        | React 19                                    |
+| **Backend**          | React-hot-toast, SweetAlert2, QuillEditor,  |
+|                      | React-Icon                                  |
+| **FrontEnd**         | AOS, , TailwindCSS, EmojiPedia,             |
+| **Database**         | Supabase                                    |
+| **ChatBot**          | Gemini API                                  |
+| **Tools Pendukung**  | VSCode, Supabase, ChatGPT, Gemini           |
+
+---
+
+## 🚀 Tujuan
+
+Dengan adanya aplikasi ini, **RuliLearning** diharapkan dapat menjadi solusi pembelajaran digital yang **praktis, fleksibel, dan terjangkau** bagi siapa saja yang ingin belajar secara mandiri maupun terstruktur.
+
+
+
+---
