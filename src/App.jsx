@@ -9,7 +9,7 @@ import ListIsiMateriUser from "./pages/ListIsiMateriUser";
 import HomeDashboard from "./components/DashboardLayout/HomeDashboard";
 import KategoriMateri from "./components/DashboardLayout/KategoriMateri/KategoriMateri";
 import AddKategoriMateri from "./components/DashboardLayout/KategoriMateri/AddKategoriMateri";
-import EditKategoriMateri from "./components/DashboardLayout/KategoriMateri/editKategoriMateri";
+import EditKategoriMateri from "./components/DashboardLayout/KategoriMateri/EditKategoriMateri";
 import IsiMateri from "./components/DashboardLayout/IsiMateri/IsiMateri";
 import AddIsiMateri from "./components/DashboardLayout/IsiMateri/AddIsiMateri";
 import EditIsiMateri from "./components/DashboardLayout/IsiMateri/EditIsiMateri";
