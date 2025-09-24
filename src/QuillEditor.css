@@ -1,0 +1,75 @@
+/* Memberi container utama posisi relatif untuk penataan */
+.quill-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* --- Penataan Toolbar --- */
+.ql-toolbar.ql-snow {
+  border-radius: 8px 8px 0 0; /* Membuat sudut atas melengkung */
+  background-color: #f3f4f6;   /* Warna abu-abu terang */
+  border: 1px solid #d1d5db;
+  border-bottom: 0;           /* Hapus border bawah agar menyatu dengan editor */
+  padding: 12px 8px;
+}
+
+/* --- Penataan Tombol di Toolbar --- */
+.ql-snow .ql-formats {
+  margin-right: 12px;
+}
+
+.ql-snow .ql-picker-label,
+.ql-snow .ql-stroke {
+  color: #4b5563; /* Warna ikon lebih gelap */
+  stroke: #4b5563;
+}
+
+.ql-snow .ql-stroke {
+  stroke-width: 2px;
+}
+
+.ql-snow .ql-picker,
+.ql-snow button {
+  transition: background-color 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+/* Efek hover pada tombol */
+.ql-snow .ql-picker:hover,
+.ql-snow button:hover {
+  background-color: #e5e7eb;
+}
+
+/* Status aktif/terpilih pada tombol */
+.ql-snow .ql-active .ql-stroke,
+.ql-snow .ql-picker-label.ql-active {
+  color: #2563eb;  /* Warna biru saat aktif */
+  stroke: #2563eb;
+}
+
+.ql-snow .ql-active .ql-picker-label {
+  font-weight: 600;
+}
+
+/* --- Penataan Area Editor --- */
+.ql-container.ql-snow {
+  border-radius: 0 0 8px 8px; /* Sudut bawah melengkung */
+  border: 1px solid #d1d5db;
+  font-size: 16px;
+  flex-grow: 1; /* Membuat area editor mengisi sisa ruang */
+  overflow-y: auto;
+}
+
+/* Area pengetikan di dalam editor */
+.ql-editor {
+  padding: 16px;
+  line-height: 1.6;
+}
+
+/* Placeholder Teks */
+.ql-editor.ql-blank::before {
+  color: #9ca3af;
+  font-style: normal;
+  left: 16px;
+}
